@@ -76,23 +76,23 @@ class BootStrap {
    def book1 = new Book(          title: 'Gatsby',
                                  author: 'The Great Gatsby',
                                    isbn: '123456789',
-                           dateBorrowed: new Date('20/06/2015'),
-                             returnDate: new Date('17/07/2016'),
-                                student: 'Frank').save()
+                           dateBorrowed:  new Date('20/06/2015'),
+                             returnDate:  new Date('17/07/2016'),
+                                student:  student1).save()
 
    def book2 = new Book(          title: 'Harry Potter',
                                  author: 'that woman',
                                    isbn: '987654321',
-                           dateBorrowed: new Date('10/01/2014'),
-                             returnDate: new Date('12/11/2015'),
-                                student: 'Liam').save()
+                           dateBorrowed:  new Date('10/01/2014'),
+                             returnDate:  new Date('12/11/2015'),
+                                student:  student2).save()
 
    def book3 = new Book(          title: 'The Fury',
                                  author: 'Some Angry Fella',
                                    isbn: '918273645',
-                           dateBorrowed: new Date('10/01/2013'),
-                             returnDate: new Date('13/02/2014'),
-                                student: 'Joe').save()
+                           dateBorrowed:  new Date('10/01/2013'),
+                             returnDate:  new Date('13/02/2014'),
+                                student:  student3).save()
 
 
 
