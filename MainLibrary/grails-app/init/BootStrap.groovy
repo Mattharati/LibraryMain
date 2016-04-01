@@ -59,19 +59,19 @@ class BootStrap {
                             openingHours: '24/7',
                                     book: 'Of Mice And Men',
                                  student: 'Cody',
-                               librarian: 'Jeff').save()
+                               librarian:  librarian1).save()
  
     def library2 = new Library( location: 'Manchester',
                             openingHours: '24/7',
                                     book: 'The Fury',
                                  student: 'Steve',
-                               librarian: 'Peter').save()
+                               librarian:  librarian2).save()
  
     def library3 = new Library( location: 'Glasgow',
                             openingHours: '24/7',
                                     book: 'Loch Ness Myths',
                                  student: 'Jimmy',
-                               librarian: 'Gregory').save()
+                               librarian:  librarian3).save()
 
    def book1 = new Book(          title: 'Gatsby',
                                  author: 'The Great Gatsby',
