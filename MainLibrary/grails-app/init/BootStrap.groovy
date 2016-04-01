@@ -43,17 +43,17 @@ class BootStrap {
    def student1 = new Student(     name: 'Joe',
                                   email: 'joe@hotmail.co.uk',
                               studentId: 'joe123',
-                                 course: 'Computing').save()
+                                 course:  course2).save()
 
    def student2 = new Student(     name: 'Liam',
                                   email: 'liam@hotmail.co.uk',
                               studentId: 'liam123',
-                                 course: 'Physics').save()
+                                 course:  course1).save()
 
    def student3 = new Student(     name: 'Frank',
                                   email: 'frank@hotmail.co.uk',
                               studentId: 'frank123',
-                                 course: 'History').save()
+                                 course:  course3).save()
 
     def library1 = new Library( location: 'Sheffield',
                             openingHours: '24/7',
